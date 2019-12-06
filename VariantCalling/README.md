@@ -1,6 +1,7 @@
 1.  calling using sentieon
 
 1a, snp and indel calling for autosome
+
 example: sh SENTIEON.reads2gvcf.sh
 step1: filter reads using Trimmomatic-0.36
 step2: for each sample, genetate a recalibrated bam file and then a  GVCF file of snp and indel using DNAscope algorithm  in SENTIEON.reads2gvcf.sh
